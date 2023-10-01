@@ -34,7 +34,14 @@ public class Operadores {
 
         // concatenacao = 1 + "1" + 1 + 1; // concatenacao = "1111", onde iniciou a soma
         // e transformou o restante em texto.
-        // System.out.println(concatenacao);
+        // EX:
+        int numero = 5;
+        numero = -numero;
+        System.out.println(numero);
+
+        numero = numero * -1; // Somente desta forma é possível inverter o valor aplicado acima de forma
+                              // "unária".
+        System.out.println(numero);
 
     }
 }
