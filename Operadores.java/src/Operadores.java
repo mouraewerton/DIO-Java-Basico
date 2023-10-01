@@ -43,5 +43,24 @@ public class Operadores {
                               // "unária".
         System.out.println(numero);
 
+        // x repetição
+        // numero ++ = incremento
+        // -- numero = decremento
+        // !variavel = alterar valor aplicado
+
+        // Ternário
+        // Forma resumida para definir uma condição e escolher por um dentre dois
+        // valores. Deve se pensar que é uma condição IF normal, porém toda sua
+        // estrutura escrita em uma linha única.
+        // Representado por "?:"
+        // Exemplo
+
+        int a, b;
+        a = 1;
+        b = 1;
+
+        String resultadoTernario = a == b ? "Verdadeiro" : "Falso";
+        System.out.println(resultadoTernario);
+
     }
 }
