@@ -78,5 +78,8 @@ public class Operadores {
 
         System.out.println(nomeUm.equals(nomeDois));
 
+        // Lógicos
+        // Operadores lógicos && = E, || = Ou.
+
     }
 }
