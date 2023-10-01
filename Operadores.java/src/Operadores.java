@@ -62,5 +62,21 @@ public class Operadores {
         String resultadoTernario = a == b ? "Verdadeiro" : "Falso";
         System.out.println(resultadoTernario);
 
+        // Relacionais
+        // Servem para avaliar a relação entre variáveis e expressões.
+        // == igual
+        // != diferente
+        // > maior
+        // >= maior ou igual
+        // < menor
+        // <= menor ou igual
+        // PARA NUMEROS UTILIZAR OS OPERADORES RELACIONAIS, PARA OBJETOS UTILIZAR
+        // "EQUALS"
+        // Exemplo:
+        String nomeUm = "Ewerton";
+        String nomeDois = "Moura";
+
+        System.out.println(nomeUm.equals(nomeDois));
+
     }
 }
