@@ -25,16 +25,18 @@ public class Operadores {
         String nomeCompleto = "Ewerton" + "Moura"; // Resultando em "EwertonMoura"
         System.out.println(nomeCompleto);
 
-        // Concatenação misturando texto com numero
-
-        // concatenacao = 1 + 1 + 1 + "1"; // concatenacao = "31", ocorreu de somar 1 +
-        // 1 + 1 e transformar em texto o
-        // ultimo 1.
-        // System.out.println(concatenacao);
-
-        // concatenacao = 1 + "1" + 1 + 1; // concatenacao = "1111", onde iniciou a soma
-        // e transformou o restante em texto.
-        // EX:
+        /*
+         * Concatenação misturando texto com numero
+         * 
+         * concatenacao = 1 + 1 + 1 + "1"; // concatenacao = "31", ocorreu de somar 1 +
+         * 1 + 1 e transformar em texto o
+         * ultimo 1.
+         * System.out.println(concatenacao);
+         * 
+         * concatenacao = 1 + "1" + 1 + 1; // concatenacao = "1111", onde iniciou a soma
+         * e transformou o restante em texto.
+         * EX:
+         */
         int numero = 5;
         numero = -numero;
         System.out.println(numero);
@@ -43,17 +45,19 @@ public class Operadores {
                               // "unária".
         System.out.println(numero);
 
-        // x repetição
-        // numero ++ = incremento
-        // -- numero = decremento
-        // !variavel = alterar valor aplicado
-
-        // Ternário
-        // Forma resumida para definir uma condição e escolher por um dentre dois
-        // valores. Deve se pensar que é uma condição IF normal, porém toda sua
-        // estrutura escrita em uma linha única.
-        // Representado por "?:"
-        // Exemplo
+        /*
+         * x repetição
+         * numero ++ = incremento
+         * -- numero = decremento
+         * !variavel = alterar valor aplicado
+         * 
+         * Ternário
+         * Forma resumida para definir uma condição e escolher por um dentre dois
+         * valores. Deve se pensar que é uma condição IF normal, porém toda sua
+         * estrutura escrita em uma linha única.
+         * Representado por "?:"
+         * Exemplo
+         */
 
         int a, b;
         a = 1;
@@ -62,24 +66,26 @@ public class Operadores {
         String resultadoTernario = a == b ? "Verdadeiro" : "Falso";
         System.out.println(resultadoTernario);
 
-        // Relacionais
-        // Servem para avaliar a relação entre variáveis e expressões.
-        // == igual
-        // != diferente
-        // > maior
-        // >= maior ou igual
-        // < menor
-        // <= menor ou igual
-        // PARA NUMEROS UTILIZAR OS OPERADORES RELACIONAIS, PARA OBJETOS UTILIZAR
-        // "EQUALS"
-        // Exemplo:
-        String nomeUm = "Ewerton";
-        String nomeDois = "Moura";
-
-        System.out.println(nomeUm.equals(nomeDois));
-
-        // Lógicos
-        // Operadores lógicos && = E, || = Ou.
+        /*
+         * Relacionais
+         * Servem para avaliar a relação entre variáveis e expressões.
+         * == igual
+         * != diferente
+         * > maior
+         * >= maior ou igual
+         * < menor
+         * <= menor ou igual
+         * PARA NUMEROS UTILIZAR OS OPERADORES RELACIONAIS, PARA OBJETOS UTILIZAR
+         * "EQUALS"
+         * Exemplo:
+         * String nomeUm = "Ewerton";
+         * String nomeDois = "Moura";
+         * 
+         * System.out.println(nomeUm.equals(nomeDois));
+         * 
+         * Lógicos
+         * Operadores lógicos && = E, || = Ou.
+         */
 
     }
 }
