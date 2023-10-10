@@ -1,4 +1,4 @@
-public class ForArray {
+public class ExForArray {
     public static void main(String[] args) throws Exception {
 
         // Em arrays o indice se iniciar em ZERO
